@@ -59,4 +59,5 @@ jobs:
           app-name: 'app-gbcode-kms'
           slot-name: 'Production'
           package: .
+          clean: true
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEC1446E26464FE2AFA28E5C1133F720 }}
